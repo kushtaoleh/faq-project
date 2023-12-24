@@ -32,5 +32,8 @@ html{
     background-color: #FFFFFF;
     border-radius: 2%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+}
+#main_questions{
+    height: 100%;
 }
