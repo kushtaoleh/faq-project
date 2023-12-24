@@ -31,4 +31,6 @@ html{
     grid-area: 3 / 4 / 10 / 8;
     background-color: #FFFFFF;
     border-radius: 2%;
+    display: flex;
+    justify-content: center;
 }
