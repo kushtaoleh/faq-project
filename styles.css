@@ -40,15 +40,5 @@ html{
     flex-direction: column;
     align-items:stretch;
     justify-content: space-around;
+}
 
-}
-.question{
-    display: flex;
-    flex-direction: column;
-}
-.question .always_on_show{
-    font-weight: 600;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
