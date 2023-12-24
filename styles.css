@@ -25,4 +25,10 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     grid-area: 1 / 1 / 5 / -1;
+    
+}
+#main_content_faq{
+    grid-area: 3 / 4 / 10 / 8;
+    background-color: #FFFFFF;
+    border-radius: 2%;
 }
