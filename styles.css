@@ -34,11 +34,33 @@ html{
     display: flex;
     flex-direction: column;
 }
-#main_questions{
+#heading{
+    padding: 0 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.3rem;
+}
+.main_questions{
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items:stretch;
-    justify-content: space-around;
+    justify-content: center;
+    padding: 0 2rem;
 }
-
+.main_questions svg{
+    cursor: pointer;
+}
+.question{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.answer{
+    display: none;
+    color: #AAA0A9;
+}
